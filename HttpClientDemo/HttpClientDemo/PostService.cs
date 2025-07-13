@@ -2,7 +2,7 @@
 
 namespace HttpClientDemo
 {
-    public class PostService
+    public class PostService : IPostService
     {
         private readonly HttpClient _httpClient;
 
